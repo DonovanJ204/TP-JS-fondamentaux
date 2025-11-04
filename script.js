@@ -37,8 +37,21 @@ const classe = [
     { prenom: 'Bob', age: 17 }
 ];
 
+function saluer(prenom) {
+    const message = "Bonjour " + prenom;
+    return message;
+}
+
+// On "appelle" la fonction
+const salutationPourAlice = saluer("Alice");
+console.log(salutationPourAlice); // Affiche "Bonjour Alice"
+
+const estMajeur = (age) => {
+    return age >= 18;
+}
+
 for (let i = 0; i < classe.length; i++) {
-    if (classe[i].age >= 18) {
+    if (estMajeur(classe[i].age)) {
         console.log(classe[i].prenom);
     }
 }
