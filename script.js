@@ -38,5 +38,7 @@ const classe = [
 ];
 
 for (let i = 0; i < classe.length; i++) {
-    console.log("La note à l'indice " + i + " est " + classe[i]);
+    if (classe[i].age >= 18) {
+        console.log(classe[i].prenom);
+    }
 }
