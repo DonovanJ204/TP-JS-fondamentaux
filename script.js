@@ -24,7 +24,7 @@ const moi = {
     competences: ["HTML", "CSS"]
 };
 
-console.log(`Je m'appelle ${moi.prenom} ${moi.nom}`);
+console.log("Je m'appelle", moi.prenom , moi.nom);
 
 const notes = [12, 15, 9, 18];
 
