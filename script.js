@@ -27,3 +27,16 @@ const moi = {
 console.log(`Je m'appelle ${moi.prenom} ${moi.nom}`);
 
 const notes = [12, 15, 9, 18];
+
+for (let i = 0; i < notes.length; i++) {
+    console.log("La note à l'indice " + i + " est " + notes[i]);
+}
+
+const classe = [
+    { prenom: 'Alice', age: 18 },
+    { prenom: 'Bob', age: 17 }
+];
+
+for (let i = 0; i < classe.length; i++) {
+    console.log("La note à l'indice " + i + " est " + classe[i]);
+}
